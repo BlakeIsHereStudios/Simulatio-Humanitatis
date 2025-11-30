@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://buvlfi8ecgxm5"
+
+[deps]
+
+files=["res://Text/gameplay.en_GB.translation", "res://Text/gameplay.en_US.translation", "res://Text/gameplay.fr_FR.translation", "res://Text/gameplay.de.translation", "res://Text/gameplay.es_MX.translation", "res://Text/gameplay.it.translation", "res://Text/gameplay.ru.translation", "res://Text/gameplay.ja.translation"]
+
+source_file="res://Text/gameplay.csv"
+dest_files=["res://Text/gameplay.en_GB.translation", "res://Text/gameplay.en_US.translation", "res://Text/gameplay.fr_FR.translation", "res://Text/gameplay.de.translation", "res://Text/gameplay.es_MX.translation", "res://Text/gameplay.it.translation", "res://Text/gameplay.ru.translation", "res://Text/gameplay.ja.translation"]
+
+[params]
+
+compress=true
+delimiter=0

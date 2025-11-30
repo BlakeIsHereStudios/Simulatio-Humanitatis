@@ -1,0 +1,173 @@
+[gd_scene load_steps=4 format=3 uid="uid://blgbn5gs2q8pa"]
+
+[ext_resource type="FontFile" uid="uid://gj6sa4g0fle6" path="res://UncialAntiqua-Regular.ttf" id="1_fyqef"]
+[ext_resource type="Theme" uid="uid://dk8nqqoyln0hx" path="res://ui.tres" id="1_nltto"]
+[ext_resource type="FontFile" uid="uid://2abwnb7oaqta" path="res://GermaniaOne-Regular.ttf" id="2_ibotj"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TopLeft" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme = ExtResource("1_nltto")
+
+[node name="Margin" type="MarginContainer" parent="TopLeft"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="Buttons" type="HBoxContainer" parent="TopLeft/Margin"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 5
+
+[node name="TechTree" type="Button" parent="TopLeft/Margin/Buttons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "TECH_TREE"
+
+[node name="Policies" type="Button" parent="TopLeft/Margin/Buttons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "POLICIES"
+
+[node name="Encyclopedia" type="Button" parent="TopLeft/Margin/Buttons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "ENCYCLOPEDIA"
+
+[node name="Pause" type="Button" parent="TopLeft/Margin/Buttons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "PAUSE_GAME"
+
+[node name="ProductionMenu" type="PanelContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_nltto")
+
+[node name="Margin" type="MarginContainer" parent="ProductionMenu"]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="MainBox" type="VBoxContainer" parent="ProductionMenu/Margin"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_nltto")
+
+[node name="TopBar" type="Label" parent="ProductionMenu/Margin/MainBox"]
+layout_mode = 2
+size_flags_vertical = 0
+theme = ExtResource("1_nltto")
+theme_override_fonts/font = ExtResource("2_ibotj")
+theme_override_font_sizes/font_size = 28
+text = "MENU_PRODUCTION"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Buttons" type="TabContainer" parent="ProductionMenu/Margin/MainBox"]
+custom_minimum_size = Vector2(350, 250)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_fonts/font = ExtResource("1_fyqef")
+theme_override_font_sizes/font_size = 18
+tab_alignment = 1
+current_tab = 0
+
+[node name="Units" type="VBoxContainer" parent="ProductionMenu/Margin/MainBox/Buttons"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_nltto")
+theme_override_constants/separation = 5
+metadata/_tab_index = 0
+
+[node name="Settler" type="Button" parent="ProductionMenu/Margin/MainBox/Buttons/Units"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_font_sizes/font_size = 18
+text = "UNIT_SETTLER"
+
+[node name="Scout" type="Button" parent="ProductionMenu/Margin/MainBox/Buttons/Units"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_font_sizes/font_size = 18
+text = "UNIT_SCOUT"
+
+[node name="Laborer" type="Button" parent="ProductionMenu/Margin/MainBox/Buttons/Units"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_font_sizes/font_size = 18
+text = "UNIT_LABORER"
+
+[node name="Warrior" type="Button" parent="ProductionMenu/Margin/MainBox/Buttons/Units"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_font_sizes/font_size = 18
+text = "UNIT_WARRIOR"
+
+[node name="Buildings" type="VBoxContainer" parent="ProductionMenu/Margin/MainBox/Buttons"]
+visible = false
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_constants/separation = 5
+metadata/_tab_index = 1
+
+[node name="Barracks" type="Button" parent="ProductionMenu/Margin/MainBox/Buttons/Buildings"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_font_sizes/font_size = 18
+text = "BUILDING_BARRACKS"
+
+[node name="Granary" type="Button" parent="ProductionMenu/Margin/MainBox/Buttons/Buildings"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_font_sizes/font_size = 18
+text = "BUILDING_GRANARY"
+
+[node name="Wonders" type="VBoxContainer" parent="ProductionMenu/Margin/MainBox/Buttons"]
+visible = false
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_constants/separation = 5
+metadata/_tab_index = 2
+
+[node name="Stonehenge" type="Button" parent="ProductionMenu/Margin/MainBox/Buttons/Wonders"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+theme = ExtResource("1_nltto")
+theme_override_font_sizes/font_size = 18
+text = "WONDER_STONEHENGE"
