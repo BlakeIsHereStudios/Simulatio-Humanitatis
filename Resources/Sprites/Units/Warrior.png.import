@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqoherb3kpxwr"
-path="res://.godot/imported/Settler.png-a8fcb78624f5cf105223062a813e63b3.ctex"
+uid="uid://bim58hg4veunq"
+path="res://.godot/imported/Warrior.png-1da8372817f14f21c6108de510b5747a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Units/Settler.png"
-dest_files=["res://.godot/imported/Settler.png-a8fcb78624f5cf105223062a813e63b3.ctex"]
+source_file="res://Resources/Sprites/Units/Warrior.png"
+dest_files=["res://.godot/imported/Warrior.png-1da8372817f14f21c6108de510b5747a.ctex"]
 
 [params]
 

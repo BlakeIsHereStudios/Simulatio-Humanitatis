@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rboqn16wd6c5"
-path="res://.godot/imported/TileSelectOverlay.png-d7bc5cc2247c3095e2b2916dc76d9ec8.ctex"
+uid="uid://c5cjhgise5sjg"
+path="res://.godot/imported/Grassland.png-61d12d2bfc29148404fc8eb13469e0a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/TileSelectOverlay.png"
-dest_files=["res://.godot/imported/TileSelectOverlay.png-d7bc5cc2247c3095e2b2916dc76d9ec8.ctex"]
+source_file="res://Resources/Sprites/Terrain/Grassland.png"
+dest_files=["res://.godot/imported/Grassland.png-61d12d2bfc29148404fc8eb13469e0a8.ctex"]
 
 [params]
 

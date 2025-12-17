@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8a0yxcle070s"
-path="res://.godot/imported/Coast.png-d73a1e82e44b4ea448a47a0bfd6545e2.ctex"
+path="res://.godot/imported/Coast.png-7a7cf3d31724ec30839609f0b9af937d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/Coast.png"
-dest_files=["res://.godot/imported/Coast.png-d73a1e82e44b4ea448a47a0bfd6545e2.ctex"]
+source_file="res://Resources/Sprites/Terrain/Coast.png"
+dest_files=["res://.godot/imported/Coast.png-7a7cf3d31724ec30839609f0b9af937d.ctex"]
 
 [params]
 

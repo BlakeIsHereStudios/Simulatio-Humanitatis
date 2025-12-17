@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyw6hd1wca7f8"
-path="res://.godot/imported/Desert.png-159449939f8391931f16f1d71dba3e7c.ctex"
+uid="uid://be3hd6em4eysr"
+path="res://.godot/imported/Plains.png-fff0de245fb6740b45c787daed5e9d37.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/Desert.png"
-dest_files=["res://.godot/imported/Desert.png-159449939f8391931f16f1d71dba3e7c.ctex"]
+source_file="res://Resources/Sprites/Terrain/Plains.png"
+dest_files=["res://.godot/imported/Plains.png-fff0de245fb6740b45c787daed5e9d37.ctex"]
 
 [params]
 
